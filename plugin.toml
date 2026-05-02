@@ -1,0 +1,43 @@
+id = "io.limao996.hoohoolib"
+name = "齁哦哦文库"
+author = "limao996"
+categories = ["novel","others"]
+summary = "精选老司机数据源合集"
+is_nsfw = true
+
+description = """
+本插件整合了多个老司机数据源，便于用户统一管理和调用。
+标注🛩️的数据源皆要挂VPN
+
+所有数据仅供学习交流使用，请遵守相关法律法规。
+
+"""
+
+target_api = 2
+languages = ["zh","ja","ko"]
+copyright = "© 2026 limao996"
+
+[release]
+version_name = "1.0.1"
+version_code = 2
+changelog = """
+1. 修复无代理环境闪退的问题
+"""
+
+[release.download]
+file = "plugin-debug.apk.lnrp"
+output_file = "plugin-debug.apk.lnrp"
+sha1 = "14730b179702a7bd839dd9d2f0eabbed3d467d0a"
+
+[privacy]
+data_keys = ["network_access"]
+notes = ""
+
+[links]
+homepage = "https://github.com/limao996"
+repository = "https://github.com/limao996/LightNovelReaderPlugin-HoohooLib.git"
+
+[assets]
+icon = "icon.png"
+banner = "banner.png"
+screenshots = ["screenshot_1.jpg","screenshot_2.jpg","screenshot_3.jpg","screenshot_4.jpg","screenshot_5.jpg"]
