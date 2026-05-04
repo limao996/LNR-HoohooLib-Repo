@@ -30,7 +30,7 @@ changelog = """
 [release.download]
 file = "plugin-debug.apk.lnrp"
 output_file = "plugin-debug.apk.lnrp"
-sha1 = "d9027dcedc45ff0ada380ab88e764e639a1ca662"
+sha1 = "21cc65cb8959c792038202b496e474aafbfa9ba0"
 
 [privacy]
 data_keys = ["network_access"]
